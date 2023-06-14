@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Avioane" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="src/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Avioane" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Avioane" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Airplane.h" />
+		<Unit filename="include/AirplanePlacer.h" />
+		<Unit filename="include/AirplanePlacing.h" />
+		<Unit filename="include/Board.h" />
+		<Unit filename="include/ComputerTurn.h" />
+		<Unit filename="include/EndGame.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/PlayerTurn.h" />
+		<Unit filename="include/StartMenu.h" />
+		<Unit filename="include/State.h" />
+		<Unit filename="include/StateMachine.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="include/StateManager.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Airplane.cpp" />
+		<Unit filename="src/AirplanePlacer.cpp" />
+		<Unit filename="src/AirplanePlacing.cpp" />
+		<Unit filename="src/Board.cpp" />
+		<Unit filename="src/ComputerTurn.cpp" />
+		<Unit filename="src/EndGame.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/PlayerTurn.cpp" />
+		<Unit filename="src/StartMenu.cpp" />
+		<Unit filename="src/State.cpp" />
+		<Unit filename="src/StateMachine.cpp" />
+		<Unit filename="src/StateManager.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

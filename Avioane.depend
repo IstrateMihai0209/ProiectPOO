@@ -1,0 +1,152 @@
+# depslib dependency file v1.0
+1684699644 source:/home/mihai/Documents/Avioane CodeBlocks/Avioane/main.cpp
+	<iostream>
+	"StateManager.h"
+	"State.h"
+	"StartMenu.h"
+
+1684699260 source:/home/mihai/Documents/Avioane CodeBlocks/Avioane/src/AirplanePlacer.cpp
+	"AirplanePlacer.h"
+
+1684699234 /home/mihai/Documents/Avioane CodeBlocks/Avioane/include/AirplanePlacer.h
+	"Board.h"
+
+1684699605 /home/mihai/Documents/Avioane CodeBlocks/Avioane/include/Board.h
+	<iostream>
+
+1684699586 source:/home/mihai/Documents/Avioane CodeBlocks/Avioane/src/Board.cpp
+	"Board.h"
+
+1684699976 /home/mihai/Documents/Avioane CodeBlocks/Avioane/include/StateManager.h
+	"StateMachine.h"
+	"Board.h"
+	"AirplanePlacer.h"
+
+1684699934 /home/mihai/Documents/Avioane CodeBlocks/Avioane/include/StateMachine.h
+	"State.h"
+
+1684699890 /home/mihai/Documents/Avioane CodeBlocks/Avioane/include/State.h
+	<iostream>
+	<chrono>
+	<thread>
+
+1684699781 /home/mihai/Documents/Avioane CodeBlocks/Avioane/include/StartMenu.h
+	"State.h"
+	"StateManager.h"
+	"AirplanePlacing.h"
+
+1684699693 /home/mihai/Documents/Avioane CodeBlocks/Avioane/include/AirplanePlacing.h
+	"State.h"
+	"StateManager.h"
+
+1684699874 source:/home/mihai/Documents/Avioane CodeBlocks/Avioane/src/State.cpp
+	"State.h"
+
+1684699950 source:/home/mihai/Documents/Avioane CodeBlocks/Avioane/src/StateMachine.cpp
+	"StateMachine.h"
+
+1684699992 source:/home/mihai/Documents/Avioane CodeBlocks/Avioane/src/StateManager.cpp
+	"StateManager.h"
+
+1684703455 source:/home/mihai/Documents/Avioane CodeBlocks/Avioane/src/AirplanePlacing.cpp
+	"AirplanePlacing.h"
+
+1684703512 source:/home/mihai/Documents/Avioane CodeBlocks/Avioane/src/StartMenu.cpp
+	"StartMenu.h"
+
+1686692694 source:/home/mihai/Documents/Gitlab Avioane/Avioane/main.cpp
+	<iostream>
+	"StateManager.h"
+	"State.h"
+	"StartMenu.h"
+
+1686692924 /home/mihai/Documents/Gitlab Avioane/Avioane/include/StateManager.h
+	"StateMachine.h"
+	"Board.h"
+	"AirplanePlacer.h"
+	"Game.h"
+
+1686692906 /home/mihai/Documents/Gitlab Avioane/Avioane/include/StateMachine.h
+	"State.h"
+
+1686692887 /home/mihai/Documents/Gitlab Avioane/Avioane/include/State.h
+	<iostream>
+	<chrono>
+	<thread>
+
+1686692573 /home/mihai/Documents/Gitlab Avioane/Avioane/include/Board.h
+	<iostream>
+
+1686692498 /home/mihai/Documents/Gitlab Avioane/Avioane/include/AirplanePlacer.h
+	"Board.h"
+
+1686692807 /home/mihai/Documents/Gitlab Avioane/Avioane/include/StartMenu.h
+	"State.h"
+	"StateManager.h"
+	"AirplanePlacing.h"
+
+1686692547 /home/mihai/Documents/Gitlab Avioane/Avioane/include/AirplanePlacing.h
+	"State.h"
+	"StateManager.h"
+
+1686692523 source:/home/mihai/Documents/Gitlab Avioane/Avioane/src/AirplanePlacer.cpp
+	"AirplanePlacer.h"
+
+1686692998 source:/home/mihai/Documents/Gitlab Avioane/Avioane/src/AirplanePlacing.cpp
+	"AirplanePlacing.h"
+	"PlayerTurn.h"
+
+1686692565 source:/home/mihai/Documents/Gitlab Avioane/Avioane/src/Board.cpp
+	"Board.h"
+
+1686693080 source:/home/mihai/Documents/Gitlab Avioane/Avioane/src/StartMenu.cpp
+	"StartMenu.h"
+
+1686692879 source:/home/mihai/Documents/Gitlab Avioane/Avioane/src/State.cpp
+	"State.h"
+
+1686692897 source:/home/mihai/Documents/Gitlab Avioane/Avioane/src/StateMachine.cpp
+	"StateMachine.h"
+
+1686692915 source:/home/mihai/Documents/Gitlab Avioane/Avioane/src/StateManager.cpp
+	"StateManager.h"
+
+1686692684 /home/mihai/Documents/Gitlab Avioane/Avioane/include/Game.h
+	"Airplane.h"
+	<vector>
+
+1686692444 /home/mihai/Documents/Gitlab Avioane/Avioane/include/Airplane.h
+	<string>
+
+1686692480 source:/home/mihai/Documents/Gitlab Avioane/Avioane/src/Airplane.cpp
+	"Airplane.h"
+
+1686692670 source:/home/mihai/Documents/Gitlab Avioane/Avioane/src/Game.cpp
+	"Game.h"
+
+1686692731 /home/mihai/Documents/Gitlab Avioane/Avioane/include/PlayerTurn.h
+	"State.h"
+	"StateManager.h"
+
+1686693056 source:/home/mihai/Documents/Gitlab Avioane/Avioane/src/ComputerTurn.cpp
+	"ComputerTurn.h"
+	"PlayerTurn.h"
+	"EndGame.h"
+
+1686692610 /home/mihai/Documents/Gitlab Avioane/Avioane/include/ComputerTurn.h
+	"State.h"
+	"StateManager.h"
+
+1686692639 /home/mihai/Documents/Gitlab Avioane/Avioane/include/EndGame.h
+	"State.h"
+	"StateManager.h"
+
+1686693066 source:/home/mihai/Documents/Gitlab Avioane/Avioane/src/EndGame.cpp
+	"EndGame.h"
+	"StartMenu.h"
+
+1686693072 source:/home/mihai/Documents/Gitlab Avioane/Avioane/src/PlayerTurn.cpp
+	"PlayerTurn.h"
+	"ComputerTurn.h"
+	"EndGame.h"
+
